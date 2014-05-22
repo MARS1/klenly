@@ -1,0 +1,2007 @@
+/* line 1, ../sass/partials/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* apply a natural box layout model to all elements */
+/* line 7, ../sass/partials/_reset.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 28, ../sass/partials/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 38, ../sass/partials/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 42, ../sass/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 45, ../sass/partials/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 48, ../sass/partials/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 52, ../sass/partials/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 56, ../sass/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*fonts*/
+/* line 34, ../sass/partials/_typography.scss */
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 38, ../sass/partials/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+/* line 42, ../sass/partials/_typography.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 45, ../sass/partials/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 48, ../sass/partials/_typography.scss */
+h3 {
+  font-size: 1.75em;
+}
+
+/* line 51, ../sass/partials/_typography.scss */
+h4 {
+  font-size: 1.5em;
+}
+
+/* line 54, ../sass/partials/_typography.scss */
+h5 {
+  font-size: 1.25em;
+}
+
+/* line 57, ../sass/partials/_typography.scss */
+h6 {
+  font-size: 0.875em;
+}
+
+/* line 61, ../sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 65, ../sass/partials/_typography.scss */
+p, li {
+  font-weight: 400;
+}
+
+/* line 69, ../sass/partials/_typography.scss */
+a {
+  font-size: 1em;
+}
+
+/*padding*/
+/* line 3, ../sass/partials/_spacing.scss */
+.pT1 {
+  padding-top: 1%;
+}
+
+/* line 6, ../sass/partials/_spacing.scss */
+.pT12 {
+  padding-top: 2%;
+}
+
+/* line 9, ../sass/partials/_spacing.scss */
+.pT3 {
+  padding-top: 3%;
+}
+
+/* line 12, ../sass/partials/_spacing.scss */
+.pT4 {
+  padding-top: 4%;
+}
+
+/* line 15, ../sass/partials/_spacing.scss */
+.pT5 {
+  padding-top: 5%;
+}
+
+/* line 18, ../sass/partials/_spacing.scss */
+.pT10 {
+  padding-top: 10%;
+}
+
+/* line 21, ../sass/partials/_spacing.scss */
+.pT15 {
+  padding-top: 15%;
+}
+
+/* line 24, ../sass/partials/_spacing.scss */
+.pT20 {
+  padding-top: 20%;
+}
+
+/* line 27, ../sass/partials/_spacing.scss */
+.pT25 {
+  padding-top: 25%;
+}
+
+/* line 30, ../sass/partials/_spacing.scss */
+.pT30 {
+  padding-top: 30%;
+}
+
+/* line 33, ../sass/partials/_spacing.scss */
+.pT40 {
+  padding-top: 40%;
+}
+
+/* line 36, ../sass/partials/_spacing.scss */
+.pT50 {
+  padding-top: 50%;
+}
+
+/* line 39, ../sass/partials/_spacing.scss */
+.pT60 {
+  padding-top: 60%;
+}
+
+/* line 42, ../sass/partials/_spacing.scss */
+.pT70 {
+  padding-top: 70%;
+}
+
+/* line 45, ../sass/partials/_spacing.scss */
+.pT80 {
+  padding-top: 80%;
+}
+
+/* line 48, ../sass/partials/_spacing.scss */
+.pT90 {
+  padding-top: 90%;
+}
+
+/* line 51, ../sass/partials/_spacing.scss */
+.pT100 {
+  padding-top: 100%;
+}
+
+/* line 55, ../sass/partials/_spacing.scss */
+.pB1 {
+  padding-bottom: 1%;
+}
+
+/* line 58, ../sass/partials/_spacing.scss */
+.pB12 {
+  padding-bottom: 2%;
+}
+
+/* line 61, ../sass/partials/_spacing.scss */
+.pB3 {
+  padding-bottom: 3%;
+}
+
+/* line 64, ../sass/partials/_spacing.scss */
+.pB4 {
+  padding-bottom: 4%;
+}
+
+/* line 67, ../sass/partials/_spacing.scss */
+.pB5 {
+  padding-bottom: 5%;
+}
+
+/* line 70, ../sass/partials/_spacing.scss */
+.pB10 {
+  padding-bottom: 10%;
+}
+
+/* line 73, ../sass/partials/_spacing.scss */
+.pB15 {
+  padding-bottom: 15%;
+}
+
+/* line 76, ../sass/partials/_spacing.scss */
+.pB20 {
+  padding-bottom: 20%;
+}
+
+/* line 79, ../sass/partials/_spacing.scss */
+.pB25 {
+  padding-bottom: 25%;
+}
+
+/* line 82, ../sass/partials/_spacing.scss */
+.pB30 {
+  padding-bottom: 30%;
+}
+
+/* line 85, ../sass/partials/_spacing.scss */
+.pB40 {
+  padding-bottom: 40%;
+}
+
+/* line 88, ../sass/partials/_spacing.scss */
+.pB50 {
+  padding-bottom: 50%;
+}
+
+/* line 91, ../sass/partials/_spacing.scss */
+.pB60 {
+  padding-bottom: 60%;
+}
+
+/* line 94, ../sass/partials/_spacing.scss */
+.pB70 {
+  padding-bottom: 70%;
+}
+
+/* line 97, ../sass/partials/_spacing.scss */
+.pB80 {
+  padding-bottom: 80%;
+}
+
+/* line 100, ../sass/partials/_spacing.scss */
+.pB90 {
+  padding-bottom: 90%;
+}
+
+/* line 103, ../sass/partials/_spacing.scss */
+.pB100 {
+  padding-bottom: 100%;
+}
+
+/*margin*/
+/* line 109, ../sass/partials/_spacing.scss */
+.mT1 {
+  margin-top: 1%;
+}
+
+/* line 112, ../sass/partials/_spacing.scss */
+.mT12 {
+  margin-top: 2%;
+}
+
+/* line 115, ../sass/partials/_spacing.scss */
+.mT3 {
+  margin-top: 3%;
+}
+
+/* line 118, ../sass/partials/_spacing.scss */
+.mT4 {
+  margin-top: 4%;
+}
+
+/* line 121, ../sass/partials/_spacing.scss */
+.mT5 {
+  margin-top: 5%;
+}
+
+/* line 124, ../sass/partials/_spacing.scss */
+.mT10 {
+  margin-top: 10%;
+}
+
+/* line 127, ../sass/partials/_spacing.scss */
+.mT15 {
+  margin-top: 15%;
+}
+
+/* line 130, ../sass/partials/_spacing.scss */
+.mT20 {
+  margin-top: 20%;
+}
+
+/* line 133, ../sass/partials/_spacing.scss */
+.mT25 {
+  margin-top: 25%;
+}
+
+/* line 136, ../sass/partials/_spacing.scss */
+.mT30 {
+  margin-top: 30%;
+}
+
+/* line 139, ../sass/partials/_spacing.scss */
+.mT40 {
+  margin-top: 40%;
+}
+
+/* line 142, ../sass/partials/_spacing.scss */
+.mT50 {
+  margin-top: 50%;
+}
+
+/* line 145, ../sass/partials/_spacing.scss */
+.mT60 {
+  margin-top: 60%;
+}
+
+/* line 148, ../sass/partials/_spacing.scss */
+.mT70 {
+  margin-top: 70%;
+}
+
+/* line 151, ../sass/partials/_spacing.scss */
+.mT80 {
+  margin-top: 80%;
+}
+
+/* line 154, ../sass/partials/_spacing.scss */
+.mT90 {
+  margin-top: 90%;
+}
+
+/* line 157, ../sass/partials/_spacing.scss */
+.mT100 {
+  margin-top: 100%;
+}
+
+/* line 161, ../sass/partials/_spacing.scss */
+.mB1 {
+  margin-bottom: 1%;
+}
+
+/* line 164, ../sass/partials/_spacing.scss */
+.mB12 {
+  margin-bottom: 2%;
+}
+
+/* line 167, ../sass/partials/_spacing.scss */
+.mB3 {
+  margin-bottom: 3%;
+}
+
+/* line 170, ../sass/partials/_spacing.scss */
+.mB4 {
+  margin-bottom: 4%;
+}
+
+/* line 173, ../sass/partials/_spacing.scss */
+.mB5 {
+  margin-bottom: 5%;
+}
+
+/* line 176, ../sass/partials/_spacing.scss */
+.mB10 {
+  margin-bottom: 10%;
+}
+
+/* line 179, ../sass/partials/_spacing.scss */
+.mB15 {
+  margin-bottom: 15%;
+}
+
+/* line 182, ../sass/partials/_spacing.scss */
+.mB20 {
+  margin-bottom: 20%;
+}
+
+/* line 185, ../sass/partials/_spacing.scss */
+.mB25 {
+  margin-bottom: 25%;
+}
+
+/* line 188, ../sass/partials/_spacing.scss */
+.mB30 {
+  margin-bottom: 30%;
+}
+
+/* line 191, ../sass/partials/_spacing.scss */
+.mB40 {
+  margin-bottom: 40%;
+}
+
+/* line 194, ../sass/partials/_spacing.scss */
+.mB50 {
+  margin-bottom: 50%;
+}
+
+/* line 197, ../sass/partials/_spacing.scss */
+.mB60 {
+  margin-bottom: 60%;
+}
+
+/* line 200, ../sass/partials/_spacing.scss */
+.mB70 {
+  margin-bottom: 70%;
+}
+
+/* line 203, ../sass/partials/_spacing.scss */
+.mB80 {
+  margin-bottom: 80%;
+}
+
+/* line 206, ../sass/partials/_spacing.scss */
+.mB90 {
+  margin-bottom: 90%;
+}
+
+/* line 209, ../sass/partials/_spacing.scss */
+.mB100 {
+  margin-bottom: 100%;
+}
+
+/* line 216, ../sass/partials/_spacing.scss */
+.left {
+  float: left;
+}
+
+/* line 219, ../sass/partials/_spacing.scss */
+.right {
+  float: right;
+}
+
+/* line 222, ../sass/partials/_spacing.scss */
+.clear {
+  clear: both;
+}
+
+/* line 228, ../sass/partials/_spacing.scss */
+h1, h2, h3, h4, h5, h6 {
+  padding: 15px 0;
+}
+
+/* line 2, ../sass/partials/_screen.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../sass/partials/_screen.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* line 10, ../sass/partials/_screen.scss */
+div.bodyWrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 0 -90px 0;
+}
+
+@media (max-width: 480px) {
+  /* line 16, ../sass/partials/_screen.scss */
+  div.contentWrapper {
+    padding: 0 0 90px 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* line 16, ../sass/partials/_screen.scss */
+  div.contentWrapper {
+    padding: 0 0 45px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 26, ../sass/partials/_screen.scss */
+  div.bannerWrapper {
+    position: relative;
+    padding: 20px;
+    background: url("../images/banner-home.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+  /* line 34, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.logo {
+    background: url("../images/svg/logo.svg") no-repeat left center;
+    background-size: 65%;
+    width: 156px;
+    height: 52px;
+  }
+  /* line 40, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 48px;
+    height: 72px;
+  }
+  /* line 46, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li img.stackMenuImg {
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 52, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li span.stackLabel {
+    display: inline-block;
+    font-size: 1em;
+    color: #969696;
+    font-weight: 300;
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    right: 45px;
+    padding: 8px 15px 10px;
+  }
+  /* line 64, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu {
+    float: left;
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+  }
+  /* line 71, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 76, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin {
+    height: 44px;
+    width: 50%;
+    background: #00b0bc;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 81, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a {
+    height: 44px;
+    padding-top: 12px;
+    background: #00b0bc;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+  /* line 87, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a:hover {
+    background: #1adee2;
+    transition: 0.5s ease-in-out;
+  }
+  /* line 90, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp {
+    height: 44px;
+    width: 50%;
+    background: #ff526c;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 95, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a {
+    height: 44px;
+    padding-top: 12px;
+    background: #ff526c;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+  /* line 101, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a:hover {
+    background: #ffa6b7;
+    transition: 0.5s ease-in-out;
+  }
+  /* line 105, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.tagline {
+    display: block;
+    margin: 20px auto 0;
+    font-size: 1.25em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    color: #969696;
+    width: 60%;
+    text-align: center;
+  }
+  /* line 116, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post {
+    background: linear-gradient(0deg, #038790, #0dcedc);
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    transition: 0.95s ease-in-out;
+    display: block;
+    margin: 15px auto 50px;
+    height: 44px;
+    padding: 10px 50px;
+    box-shadow: 1px 1px 3px black;
+    border: none;
+    border-radius: 10px;
+  }
+  /* line 126, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post:hover {
+    background: linear-gradient(-180deg, #038790, #0dcedc);
+    transition: 0.95s ease-in-out;
+  }
+  /* line 129, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /* line 26, ../sass/partials/_screen.scss */
+  div.bannerWrapper {
+    position: relative;
+    padding: 20px;
+    background: url("../images/banner-home.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+  /* line 140, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.logo {
+    background: url("../images/svg/logo.svg") no-repeat left center;
+    background-size: 65%;
+    width: 156px;
+    height: 52px;
+  }
+  /* line 146, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 48px;
+    height: 72px;
+  }
+  /* line 152, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li img.stackMenuImg {
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 158, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li span.stackLabel {
+    display: inline-block;
+    font-size: 1em;
+    color: #969696;
+    font-weight: 300;
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    right: 45px;
+    padding: 8px 15px 10px;
+  }
+  /* line 170, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu {
+    float: left;
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 300px;
+    margin-left: -20px;
+  }
+  /* line 177, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 182, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin {
+    height: 77px;
+    width: 50%;
+    background: #00b0bc;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 187, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a {
+    height: 77px;
+    padding-top: 30px;
+    background: #00b0bc;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+  /* line 193, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a:hover {
+    background: #1adee2;
+    transition: 0.5s ease-in-out;
+  }
+  /* line 196, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp {
+    height: 77px;
+    width: 50%;
+    background: #ff526c;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 201, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a {
+    height: 77px;
+    padding-top: 30px;
+    background: #ff526c;
+    transition: 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+  }
+  /* line 207, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a:hover {
+    background: #ffa6b7;
+    transition: 0.5s ease-in-out;
+  }
+  /* line 211, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.tagline {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.25em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    color: #969696;
+    width: 50%;
+    text-align: center;
+  }
+  /* line 222, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post {
+    background: linear-gradient(0deg, #038790, #0dcedc);
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    transition: 0.95s ease-in-out;
+    display: block;
+    margin: 15px auto 20px;
+    height: 44px;
+    padding: 10px 50px;
+    box-shadow: 1px 1px 3px black;
+    border: none;
+    border-radius: 10px;
+  }
+  /* line 232, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post:hover {
+    background: linear-gradient(-180deg, #038790, #0dcedc);
+    transition: 0.95s ease-in-out;
+  }
+  /* line 235, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink {
+    width: 110px;
+    font-size: 0.675em;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: -1px -1px #969696;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    transition: 0.25s ease-in-out;
+  }
+  /* line 253, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink:hover {
+    text-decoration: none;
+    border: 2px solid white;
+    transition: 0.25s ease-in-out;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: none;
+    color: #00b0bc;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* line 26, ../sass/partials/_screen.scss */
+  div.bannerWrapper {
+    position: relative;
+    padding: 20px;
+    background: url("../images/banner-home.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+  /* line 269, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.logo {
+    background: url("../images/svg/logo.svg") no-repeat left center;
+    background-size: 100%;
+    width: 156px;
+    height: 76px;
+  }
+  /* line 275, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 48px;
+    height: 72px;
+  }
+  /* line 282, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li img.stackMenuImg {
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 288, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li span.stackLabel {
+    display: inline-block;
+    font-size: 1em;
+    color: #969696;
+    font-weight: 300;
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    right: 45px;
+    padding: 8px 15px 10px;
+  }
+  /* line 300, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu {
+    float: right;
+    height: 44px;
+    position: absolute;
+    top: 8px;
+    width: 140px;
+    right: 104px;
+    display: inline-block;
+  }
+  /* line 308, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 312, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin {
+    height: 44px;
+    width: 57px;
+    padding-right: 20px;
+    color: #00b0bc;
+    background: none;
+  }
+  /* line 319, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a {
+    height: 44px;
+    padding-top: 15px;
+    transition: 0s ease-in-out;
+    color: #00b0bc;
+    background: none;
+  }
+  /* line 325, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+    background: none;
+  }
+  /* line 330, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp {
+    height: 44px;
+    width: 57px;
+    color: #ff526c;
+    background: none;
+  }
+  /* line 335, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a {
+    height: 44px;
+    padding-top: 15px;
+    transition: 0s ease-in-out;
+    color: #ff526c;
+    background: none;
+  }
+  /* line 341, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+    background: none;
+  }
+  /* line 346, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.tagline {
+    display: block;
+    margin: 40px auto 0;
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    color: #969696;
+    width: 60%;
+    text-align: center;
+  }
+  /* line 357, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post {
+    background: linear-gradient(0deg, #038790, #0dcedc);
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    transition: 0.95s ease-in-out;
+    display: block;
+    margin: 15px auto 20px;
+    height: 44px;
+    padding: 10px 50px;
+    box-shadow: 1px 1px 3px black;
+    border: none;
+    border-radius: 10px;
+  }
+  /* line 367, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post:hover {
+    background: linear-gradient(-180deg, #038790, #0dcedc);
+    transition: 0.95s ease-in-out;
+  }
+  /* line 370, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink {
+    width: 110px;
+    font-size: 0.675em;
+    text-decoration: none;
+    color: #ffa6b7;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.25s ease-in-out;
+    box-shadow: none;
+    border: 2px solid #ffa6b7;
+    border-radius: 10px;
+  }
+  /* line 387, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink:hover {
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+    border: 2px solid #ff526c;
+    color: #ff526c;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  /* line 26, ../sass/partials/_screen.scss */
+  div.bannerWrapper {
+    position: relative;
+    padding: 20px;
+    background: url("../images/banner-home.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+  /* line 401, ../sass/partials/_screen.scss */
+  div.bannerWrapper section.nav {
+    width: 960px;
+    margin: 0 auto;
+  }
+  /* line 405, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.logo {
+    background: url("../images/svg/logo.svg") no-repeat left center;
+    background-size: 100%;
+    width: 156px;
+    height: 76px;
+    float: left;
+  }
+  /* line 412, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu {
+    display: inline-block;
+    width: 80px;
+    height: 72px;
+    float: right;
+  }
+  /* line 417, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li.liStackMenu {
+    width: 170px;
+  }
+  /* line 420, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li img.stackMenuImg {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 427, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li span.stackLabel {
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+    color: #969696;
+    font-weight: 300;
+    margin: 0;
+    width: 71px;
+    padding: 15px 15px 10px;
+  }
+  /* line 438, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu {
+    float: right;
+    height: 44px;
+    width: 140px;
+    display: inline-block;
+    margin-right: 0;
+  }
+  /* line 444, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  /* line 449, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin {
+    height: 44px;
+    width: 57px;
+    padding-right: 20px;
+    display: block;
+    text-align: center;
+    color: #00b0bc;
+    background: none;
+  }
+  /* line 457, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a {
+    height: 44px;
+    padding-top: 15px;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #00b0bc;
+    background: none;
+  }
+  /* line 466, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+    background: none;
+  }
+  /* line 471, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp {
+    height: 44px;
+    width: 57px;
+    color: #ff526c;
+    background: none;
+  }
+  /* line 477, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a {
+    height: 44px;
+    padding-top: 15px;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #ff526c;
+    background: none;
+  }
+  /* line 486, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+    background: none;
+  }
+  /* line 491, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.tagline {
+    display: block;
+    margin: 128px auto 0;
+    font-size: 1.75em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    color: #969696;
+    width: 60%;
+    text-align: center;
+  }
+  /* line 502, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post {
+    background: linear-gradient(0deg, #038790, #0dcedc);
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    transition: 0.95s ease-in-out;
+    display: block;
+    margin: 15px auto 20px;
+    height: 44px;
+    padding: 10px 50px;
+    box-shadow: 1px 1px 3px black;
+    border: none;
+    border-radius: 10px;
+  }
+  /* line 512, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post:hover {
+    background: linear-gradient(-180deg, #038790, #0dcedc);
+    transition: 0.95s ease-in-out;
+  }
+  /* line 515, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink {
+    width: 110px;
+    font-size: 0.675em;
+    text-decoration: none;
+    color: #ffa6b7;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.25s ease-in-out;
+    box-shadow: none;
+    border: 2px solid #ffa6b7;
+    border-radius: 10px;
+  }
+  /* line 532, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink:hover {
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+    border: 2px solid #ff526c;
+    color: #ff526c;
+  }
+}
+@media only screen and (min-width: 1383px) {
+  /* line 26, ../sass/partials/_screen.scss */
+  div.bannerWrapper {
+    position: relative;
+    padding: 20px;
+    background: url("../images/banner-home.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+  }
+  /* line 546, ../sass/partials/_screen.scss */
+  div.bannerWrapper section.nav {
+    width: 960px;
+    margin: 0 auto;
+  }
+  /* line 550, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.logo {
+    background: url("../images/svg/logo.svg") no-repeat left center;
+    background-size: 100%;
+    width: 156px;
+    height: 76px;
+    float: left;
+  }
+  /* line 557, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu {
+    display: inline-block;
+    width: 80px;
+    height: 72px;
+    float: right;
+  }
+  /* line 562, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li.liStackMenu {
+    width: 170px;
+  }
+  /* line 565, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li img.stackMenuImg {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 572, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.stackMenu li span.stackLabel {
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+    color: #969696;
+    font-weight: 300;
+    margin: 0;
+    width: 71px;
+    padding: 15px 15px 10px;
+  }
+  /* line 583, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu {
+    float: right;
+    height: 44px;
+    width: 140px;
+    display: inline-block;
+    margin-right: 0;
+  }
+  /* line 589, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  /* line 594, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin {
+    height: 44px;
+    width: 57px;
+    padding-right: 20px;
+    display: block;
+    text-align: center;
+    color: #00b0bc;
+    background: none;
+  }
+  /* line 602, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a {
+    height: 44px;
+    padding-top: 15px;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #00b0bc;
+    background: none;
+  }
+  /* line 611, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liLogin a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+    background: none;
+  }
+  /* line 616, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp {
+    height: 44px;
+    width: 57px;
+    color: #ff526c;
+    background: none;
+  }
+  /* line 622, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a {
+    height: 44px;
+    padding-top: 15px;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #ff526c;
+    background: none;
+  }
+  /* line 631, ../sass/partials/_screen.scss */
+  div.bannerWrapper ul.utilMenu li.liSignUp a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+    background: none;
+  }
+  /* line 636, ../sass/partials/_screen.scss */
+  div.bannerWrapper div.tagline {
+    display: block;
+    margin: 188px auto 40px;
+    font-size: 2.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    color: #969696;
+    width: 55%;
+    text-align: center;
+  }
+  /* line 647, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post {
+    background: linear-gradient(0deg, #038790, #0dcedc);
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    transition: 0.95s ease-in-out;
+    display: block;
+    margin: 15px auto 20px;
+    height: 44px;
+    padding: 10px 50px;
+    box-shadow: 1px 1px 3px black;
+    border: none;
+    border-radius: 10px;
+  }
+  /* line 657, ../sass/partials/_screen.scss */
+  div.bannerWrapper button.btn-post:hover {
+    background: linear-gradient(-180deg, #038790, #0dcedc);
+    transition: 0.95s ease-in-out;
+  }
+  /* line 660, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink {
+    width: 110px;
+    font-size: 0.675em;
+    text-decoration: none;
+    color: #ffa6b7;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.25s ease-in-out;
+    box-shadow: none;
+    border: 2px solid #ffa6b7;
+    border-radius: 10px;
+  }
+  /* line 677, ../sass/partials/_screen.scss */
+  div.bannerWrapper a.detailsLink:hover {
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+    border: 2px solid #ff526c;
+    color: #ff526c;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 686, ../sass/partials/_screen.scss */
+  div.mainWrapper {
+    height: 640px;
+    padding: 0 20px;
+    margin: 80px 0 20px;
+  }
+  /* line 691, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+  }
+  /* line 695, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col div.stepCir {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1.5em;
+    line-height: 50px;
+    background: linear-gradient(0deg, #038790, #0dcedc);
+  }
+  /* line 708, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col h2 {
+    text-align: center;
+    color: #00b0bc;
+  }
+  /* line 712, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col p {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    line-height: 130%;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* line 686, ../sass/partials/_screen.scss */
+  div.mainWrapper {
+    height: 260px;
+    padding: 0 20px;
+    margin: 110px 0 60px;
+  }
+  /* line 725, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col {
+    width: 33.333333%;
+    float: left;
+    margin-bottom: 30px;
+  }
+  /* line 729, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col div.stepCir {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1.5em;
+    line-height: 50px;
+    background: linear-gradient(0deg, #038790, #0dcedc);
+  }
+  /* line 742, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #00b0bc;
+  }
+  /* line 747, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col p {
+    font-size: 0.875em;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 130%;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* line 686, ../sass/partials/_screen.scss */
+  div.mainWrapper {
+    height: 260px;
+    padding: 0 20px;
+    margin: 42px 0 80px;
+  }
+  /* line 761, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col {
+    width: 33.333333%;
+    float: left;
+  }
+  /* line 764, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col div.stepCir {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1.5em;
+    line-height: 50px;
+    background: linear-gradient(0deg, #038790, #0dcedc);
+  }
+  /* line 777, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #00b0bc;
+  }
+  /* line 782, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col p {
+    font-size: 0.875em;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 130%;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  /* line 686, ../sass/partials/_screen.scss */
+  div.mainWrapper {
+    height: 280px;
+    padding: 0 20px;
+    margin: 42px 0 80px;
+  }
+  /* line 796, ../sass/partials/_screen.scss */
+  div.mainWrapper div.colWrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  /* line 800, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col {
+    width: 33.333333%;
+    float: left;
+  }
+  /* line 803, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col div.stepCir {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1.5em;
+    line-height: 50px;
+    background: linear-gradient(0deg, #038790, #0dcedc);
+  }
+  /* line 816, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col h2 {
+    font-size: 1.75em;
+    text-align: center;
+    color: #00b0bc;
+  }
+  /* line 821, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col p {
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 150%;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1383px) {
+  /* line 686, ../sass/partials/_screen.scss */
+  div.mainWrapper {
+    height: 280px;
+    padding: 0 20px;
+    margin: 42px 0 80px;
+  }
+  /* line 835, ../sass/partials/_screen.scss */
+  div.mainWrapper div.colWrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  /* line 839, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col {
+    width: 33.333333%;
+    float: left;
+  }
+  /* line 842, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col div.stepCir {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1.5em;
+    line-height: 50px;
+    background: linear-gradient(0deg, #038790, #0dcedc);
+  }
+  /* line 855, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col h2 {
+    font-size: 1.75em;
+    text-align: center;
+    color: #00b0bc;
+  }
+  /* line 860, ../sass/partials/_screen.scss */
+  div.mainWrapper div.col p {
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 150%;
+    text-align: left;
+  }
+}
+
+/* line 872, ../sass/partials/_screen.scss */
+section.footer {
+  height: 90px;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  /* line 872, ../sass/partials/_screen.scss */
+  section.footer {
+    padding-top: 10px;
+    background: #ff526c;
+  }
+  /* line 878, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo {
+    display: inline-block;
+    margin: 0;
+    height: 70px;
+    width: 45%;
+  }
+  /* line 883, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo div.smlLogo {
+    display: block;
+    background: url("../images/svg/small-logo.svg") no-repeat center center;
+    background-size: 75%;
+    width: 106px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* line 892, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo p.footer {
+    font-size: .5em;
+    color: white;
+    text-align: center;
+  }
+  /* line 898, ../sass/partials/_screen.scss */
+  section.footer ul li a {
+    font-size: .675em;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 904, ../sass/partials/_screen.scss */
+  section.footer ul li a:hover {
+    text-decoration: underline;
+  }
+  /* line 907, ../sass/partials/_screen.scss */
+  section.footer ul.social {
+    width: 25%;
+    margin-top: 30px;
+  }
+  /* line 910, ../sass/partials/_screen.scss */
+  section.footer ul.social li a {
+    float: left;
+    padding-right: 10px;
+    transition: 0.25s ease-in-out;
+  }
+  /* line 915, ../sass/partials/_screen.scss */
+  section.footer ul.social li a:hover {
+    transition: 0.25s ease-in-out;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+  /* line 921, ../sass/partials/_screen.scss */
+  section.footer ul.social, section.footer ul.contextMenu {
+    display: inline-block;
+  }
+  /* line 924, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu {
+    width: 25%;
+    text-align: center;
+  }
+  /* line 927, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li {
+    padding: 3px 0;
+  }
+  /* line 931, ../sass/partials/_screen.scss */
+  section.footer .facebook, section.footer .pinterest, section.footer .twitter {
+    width: 20px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /* line 872, ../sass/partials/_screen.scss */
+  section.footer {
+    padding-top: 10px;
+    background: #ff526c;
+  }
+  /* line 938, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo {
+    display: inline-block;
+    margin: 0;
+    height: 70px;
+    width: 45%;
+  }
+  /* line 943, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo div.smlLogo {
+    display: block;
+    background: url("../images/svg/small-logo.svg") no-repeat center center;
+    background-size: 75%;
+    width: 106px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* line 952, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo p.footer {
+    font-size: .5em;
+    color: white;
+    text-align: center;
+  }
+  /* line 958, ../sass/partials/_screen.scss */
+  section.footer ul li a {
+    font-size: .675em;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 964, ../sass/partials/_screen.scss */
+  section.footer ul li a:hover {
+    text-decoration: underline;
+  }
+  /* line 967, ../sass/partials/_screen.scss */
+  section.footer ul.social {
+    width: 25%;
+    margin-top: 30px;
+  }
+  /* line 970, ../sass/partials/_screen.scss */
+  section.footer ul.social li a {
+    float: left;
+    padding-right: 10px;
+    transition: 0.25s ease-in-out;
+  }
+  /* line 975, ../sass/partials/_screen.scss */
+  section.footer ul.social li a:hover {
+    transition: 0.25s ease-in-out;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+  /* line 981, ../sass/partials/_screen.scss */
+  section.footer ul.social, section.footer ul.contextMenu {
+    display: inline-block;
+  }
+  /* line 984, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu {
+    width: 25%;
+    text-align: center;
+  }
+  /* line 987, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li {
+    padding: 3px 0;
+  }
+  /* line 991, ../sass/partials/_screen.scss */
+  section.footer .facebook, section.footer .pinterest, section.footer .twitter {
+    width: 20px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* line 872, ../sass/partials/_screen.scss */
+  section.footer {
+    padding-top: 10px;
+    background: #ff526c;
+  }
+  /* line 998, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo {
+    display: inline-block;
+    margin: 0;
+    height: 70px;
+    width: 25%;
+  }
+  /* line 1003, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo div.smlLogo {
+    display: block;
+    background: url("../images/svg/small-logo.svg") no-repeat center center;
+    background-size: 100%;
+    width: 106px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* line 1012, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo p.footer {
+    font-size: 0.675em;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+  }
+  /* line 1019, ../sass/partials/_screen.scss */
+  section.footer ul li a {
+    font-size: .675em;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 1025, ../sass/partials/_screen.scss */
+  section.footer ul li a:hover {
+    text-decoration: underline;
+  }
+  /* line 1028, ../sass/partials/_screen.scss */
+  section.footer ul.social {
+    width: 35%;
+    margin-top: 22px;
+  }
+  /* line 1031, ../sass/partials/_screen.scss */
+  section.footer ul.social li a {
+    float: left;
+    padding-right: 10px;
+    transition: 0.25s ease-in-out;
+  }
+  /* line 1036, ../sass/partials/_screen.scss */
+  section.footer ul.social li a:hover {
+    transition: 0.25s ease-in-out;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+  /* line 1042, ../sass/partials/_screen.scss */
+  section.footer ul.social, section.footer ul.contextMenu {
+    display: inline-block;
+  }
+  /* line 1045, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu {
+    width: 35%;
+    text-align: right;
+  }
+  /* line 1048, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li {
+    display: inline-block;
+    padding: 27px 20px 0 0;
+  }
+  /* line 1052, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li a {
+    font-size: 0.875em;
+  }
+  /* line 1056, ../sass/partials/_screen.scss */
+  section.footer .facebook, section.footer .pinterest, section.footer .twitter {
+    width: 32px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  /* line 872, ../sass/partials/_screen.scss */
+  section.footer {
+    padding-top: 10px;
+    background: #ff526c;
+  }
+  /* line 1061, ../sass/partials/_screen.scss */
+  section.footer footer {
+    width: 960px;
+    margin: 0 auto;
+  }
+  /* line 1067, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo {
+    display: inline-block;
+    margin: 0;
+    height: 70px;
+    width: 25%;
+  }
+  /* line 1072, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo div.smlLogo {
+    display: block;
+    background: url("../images/svg/small-logo.svg") no-repeat center center;
+    background-size: 100%;
+    width: 106px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* line 1081, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo p.footer {
+    font-size: 0.675em;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+  }
+  /* line 1088, ../sass/partials/_screen.scss */
+  section.footer ul li a {
+    font-size: .675em;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 1094, ../sass/partials/_screen.scss */
+  section.footer ul li a:hover {
+    text-decoration: underline;
+  }
+  /* line 1097, ../sass/partials/_screen.scss */
+  section.footer ul.social {
+    width: 35%;
+    margin-top: 22px;
+  }
+  /* line 1100, ../sass/partials/_screen.scss */
+  section.footer ul.social li a {
+    float: left;
+    padding-right: 20px;
+    transition: 0.25s ease-in-out;
+  }
+  /* line 1105, ../sass/partials/_screen.scss */
+  section.footer ul.social li a:hover {
+    transition: 0.25s ease-in-out;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+  /* line 1111, ../sass/partials/_screen.scss */
+  section.footer ul.social, section.footer ul.contextMenu {
+    display: inline-block;
+  }
+  /* line 1114, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu {
+    width: 35%;
+    text-align: right;
+  }
+  /* line 1117, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li {
+    display: inline-block;
+    padding: 27px 20px 0 0;
+  }
+  /* line 1121, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li a {
+    font-size: 0.875em;
+  }
+  /* line 1125, ../sass/partials/_screen.scss */
+  section.footer .facebook, section.footer .pinterest, section.footer .twitter {
+    width: 32px;
+  }
+}
+@media only screen and (min-width: 1383px) {
+  /* line 872, ../sass/partials/_screen.scss */
+  section.footer {
+    padding-top: 10px;
+    background: #ff526c;
+  }
+  /* line 1130, ../sass/partials/_screen.scss */
+  section.footer footer {
+    width: 960px;
+    margin: 0 auto;
+  }
+  /* line 1136, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo {
+    display: inline-block;
+    margin: 0;
+    height: 70px;
+    width: 25%;
+  }
+  /* line 1141, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo div.smlLogo {
+    display: block;
+    background: url("../images/svg/small-logo.svg") no-repeat center center;
+    background-size: 100%;
+    width: 106px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* line 1150, ../sass/partials/_screen.scss */
+  section.footer div.ftrLogo p.footer {
+    font-size: 0.675em;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+  }
+  /* line 1157, ../sass/partials/_screen.scss */
+  section.footer ul li a {
+    font-size: .675em;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  /* line 1163, ../sass/partials/_screen.scss */
+  section.footer ul li a:hover {
+    text-decoration: underline;
+  }
+  /* line 1166, ../sass/partials/_screen.scss */
+  section.footer ul.social {
+    width: 35%;
+    margin-top: 22px;
+  }
+  /* line 1169, ../sass/partials/_screen.scss */
+  section.footer ul.social li a {
+    float: left;
+    padding-right: 30px;
+    transition: 0.25s ease-in-out;
+  }
+  /* line 1174, ../sass/partials/_screen.scss */
+  section.footer ul.social li a:hover {
+    transition: 0.25s ease-in-out;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+  /* line 1180, ../sass/partials/_screen.scss */
+  section.footer ul.social, section.footer ul.contextMenu {
+    display: inline-block;
+  }
+  /* line 1183, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu {
+    width: 35%;
+    text-align: right;
+  }
+  /* line 1186, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li {
+    display: inline-block;
+    padding: 27px 20px 0 0;
+  }
+  /* line 1190, ../sass/partials/_screen.scss */
+  section.footer ul.contextMenu li a {
+    font-size: 0.875em;
+  }
+  /* line 1194, ../sass/partials/_screen.scss */
+  section.footer .facebook, section.footer .pinterest, section.footer .twitter {
+    width: 32px;
+  }
+}
